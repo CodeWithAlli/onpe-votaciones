@@ -1,0 +1,55 @@
+
+[functions.admin-eleccion]
+enabled = true
+verify_jwt = false
+import_map = "./functions/admin-eleccion/deno.json"
+# Uncomment to specify a custom file path to the entrypoint.
+# Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
+entrypoint = "./functions/admin-eleccion/index.ts"
+# Specifies static files to be bundled with the function. Supports glob patterns.
+# For example, if you want to serve static HTML pages in your function:
+# static_files = [ "./functions/admin-eleccion/*.html" ]
+
+[functions.admin-padron]
+enabled = true
+verify_jwt = false
+import_map = "./functions/admin-padron/deno.json"
+# Uncomment to specify a custom file path to the entrypoint.
+# Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
+entrypoint = "./functions/admin-padron/index.ts"
+# Specifies static files to be bundled with the function. Supports glob patterns.
+# For example, if you want to serve static HTML pages in your function:
+# static_files = [ "./functions/admin-padron/*.html" ]
+
+[functions.admin-usuarios]
+enabled = true
+verify_jwt = false
+import_map = "./functions/admin-usuarios/deno.json"
+# Uncomment to specify a custom file path to the entrypoint.
+# Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
+entrypoint = "./functions/admin-usuarios/index.ts"
+# Specifies static files to be bundled with the function. Supports glob patterns.
+# For example, if you want to serve static HTML pages in your function:
+# static_files = [ "./functions/admin-usuarios/*.html" ]
+
+[functions.admin-auditoria]
+enabled = true
+verify_jwt = false
+import_map = "./functions/admin-auditoria/deno.json"
+# Uncomment to specify a custom file path to the entrypoint.
+# Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
+entrypoint = "./functions/admin-auditoria/index.ts"
+# Specifies static files to be bundled with the function. Supports glob patterns.
+# For example, if you want to serve static HTML pages in your function:
+# static_files = [ "./functions/admin-auditoria/*.html" ]
+
+[functions.exportar-padron]
+enabled = true
+verify_jwt = false
+import_map = "./functions/exportar-padron/deno.json"
+# Uncomment to specify a custom file path to the entrypoint.
+# Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
+entrypoint = "./functions/exportar-padron/index.ts"
+# Specifies static files to be bundled with the function. Supports glob patterns.
+# For example, if you want to serve static HTML pages in your function:
+# static_files = [ "./functions/exportar-padron/*.html" ]
