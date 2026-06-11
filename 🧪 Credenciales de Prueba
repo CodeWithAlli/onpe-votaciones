@@ -1,0 +1,61 @@
+## 🧪 Credenciales de Prueba
+
+Para facilitar la evaluación del sistema, se proporciona acceso al módulo de votación y al panel administrativo mediante un entorno de demostración.
+
+### Acceso Administrador
+
+**Usuario:** admin
+
+**Contraseña:** onpe2026
+
+> ⚠️ Estas credenciales se proporcionan únicamente para fines de evaluación técnica y observación de las funcionalidades administrativas del sistema.
+
+Se solicita a los evaluadores:
+
+* No eliminar usuarios administrativos.
+* No modificar configuraciones críticas del sistema.
+* No eliminar registros esenciales para la demostración.
+* Utilizar el entorno exclusivamente con fines de revisión y evaluación.
+
+Las acciones realizadas dentro del sistema pueden quedar registradas en los módulos de auditoría implementados para fines de trazabilidad.
+
+---
+
+## 🗳️ DNIs de Prueba
+
+Puede utilizar cualquiera de los siguientes registros para evaluar el flujo de votación:
+
+| DNI      | Nombre Completo  |
+| -------- | ---------------- |
+| 28293031 | Valeria Acosta   |
+| 44454647 | Claudia Aguilar  |
+| 10111213 | Fernando Alvarez |
+| 40414243 | Silvia Campos    |
+| 90123456 | Pedro Castillo   |
+| 34353637 | Alberto Chavez   |
+| 48495051 | Beatriz Cordero  |
+| 12131415 | Paola Cruz       |
+| 36373839 | Mariana Delgado  |
+| 11223344 | Rosa Diaz        |
+
+### Flujo de Prueba Recomendado
+
+1. Ingresar uno de los DNIs de prueba.
+2. Verificar la validación del padrón electoral.
+3. Emitir un voto.
+4. Confirmar el registro correcto de la votación.
+5. Acceder al panel administrativo para visualizar resultados y estadísticas.
+
+---
+
+## 📌 Nota para Reclutadores y Evaluadores
+
+Este proyecto utiliza servicios cloud gratuitos para su despliegue.
+
+Debido a las limitaciones de dichos servicios, algunos componentes pueden entrar en estado de suspensión después de períodos prolongados de inactividad.
+
+Si observa una carga lenta durante el primer acceso, espere unos segundos y actualice la página. Los servicios se reactivarán automáticamente.
+
+Si encuentra algún inconveniente o requiere información adicional sobre la arquitectura e implementación del sistema, puede contactarme en:
+
+📧 [codewithalli.dev@gmail.com](mailto:codewithalli.dev@gmail.com)
