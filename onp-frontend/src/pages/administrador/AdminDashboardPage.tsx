@@ -18,7 +18,7 @@ const eleccionInicial: Eleccion = {
 };
 
 export const AdminDashboardPage = () => {
-  const { admin, logout } = useAuth();
+  const { admin } = useAuth();
   const navigate = useNavigate();
   const [stats, setStats] = useState<EstadisticasAdmin | null>(null);
   const [eleccion, setEleccion] = useState<Eleccion>(eleccionInicial);
@@ -72,10 +72,6 @@ export const AdminDashboardPage = () => {
     }
   };
 
-  const handleLogout = () => {
-    logout();
-    navigate('/admin/login');
-  };
 
   const estadoBadge = {
     activa: { clase: 'badge-verde', label: '● En curso' },

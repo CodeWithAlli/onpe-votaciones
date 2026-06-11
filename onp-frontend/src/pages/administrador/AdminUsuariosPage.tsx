@@ -38,7 +38,12 @@ export const AdminUsuariosPage = () => {
 
   const abrirEditar = (u: UsuarioAdmin) => {
     setEditando(u);
-    setForm({ username: u.username, rol: u.rol, activo: u.activo, password_hash: '' });
+    setForm({
+      username: u.username,
+      rol: u.rol,
+      activo: u.activo ?? false,
+      password_hash: ''
+    });
     setModalAbierto(true);
     setMensaje(null);
   };
@@ -90,8 +95,8 @@ export const AdminUsuariosPage = () => {
   );
 
   const rolBadge = (rol: string) => {
-    if (rol === 'superadmin')  return 'badge-azul';
-    if (rol === 'supervisor')  return 'badge-amarillo';
+    if (rol === 'superadmin') return 'badge-azul';
+    if (rol === 'supervisor') return 'badge-amarillo';
     return 'badge-gris';
   };
 

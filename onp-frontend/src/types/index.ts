@@ -61,6 +61,7 @@ export interface UsuarioAdmin {
   username: string;
   rol: 'superadmin' | 'supervisor' | 'observador';
   activo?: boolean;
+  createdAt?: string;
 }
 
 
@@ -77,9 +78,10 @@ export interface PadronVotante {
 
 export interface Auditoria {
   id: string;
-  usuario: string;
   accion: string;
   fecha: string;
+  detalle?: string;
+  usuario?: string;
 }
 
 export interface ReporteParticipacion {

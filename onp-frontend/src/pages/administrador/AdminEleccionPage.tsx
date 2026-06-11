@@ -3,8 +3,6 @@ import { AdminSidebar } from './AdminSidebar';
 import { adminService } from '../../services/api';
 import type { Eleccion } from '../../types';
 
-const ELECCION_ID = import.meta.env.VITE_ELECCION_ID;
-
 export const AdminEleccionPage = () => {
   const [eleccion, setEleccion] = useState<Eleccion | null>(null);
   const [form, setForm] = useState({
